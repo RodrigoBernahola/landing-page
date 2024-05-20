@@ -18,8 +18,6 @@ body {
     margin-bottom: 30px;
 } 
 
-
-
 .header-links {
     display: flex;
     justify-content: space-between;
@@ -68,3 +66,44 @@ button {
 }
 
 /* Estilos de la seccion de info */
+
+.info {
+    margin: 0 0 40px 0;
+    padding: 10px;
+}
+
+h2 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    gap: 16px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 200px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: 2px solid blue;
+}
+
+.item-info p {
+    align-self: center;
+    text-align: center;
+}
+
+/* Estilos de seccion cita */
