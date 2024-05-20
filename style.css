@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.inner-div{
+    width: 75%;
+    padding: 20px;
+    margin-bottom: 30px;
+} 
+
+
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header-links p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.image {
+    flex: 1 0 40%;
+    background-color: pink;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 4px;
+}
+
+/* Estilos de la seccion de info */
