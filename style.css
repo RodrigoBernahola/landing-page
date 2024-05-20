@@ -107,3 +107,16 @@ img {
 }
 
 /* Estilos de seccion cita */
+
+.cita {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    flex: 0 0 70%;
+}
