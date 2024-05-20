@@ -12,6 +12,11 @@ body {
     background-color: #1F2937;
 }
 
+.header * {
+    color: #E5E7EB;
+}
+
+
 .inner-div{
     width: 75%;
     padding: 20px;
@@ -63,6 +68,9 @@ button {
     background-color: #3882F6;
     border: 0;
     border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 20px;
 }
 
 /* Estilos de la seccion de info */
@@ -119,4 +127,36 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     flex: 0 0 70%;
+}
+
+/* Estilos de la seccion de sesion */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    margin: 40px auto;
+    flex: 0 0 80%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons * {
+    color: white;
+}
+
+/* Estilos del footer */
+
+.footer {
+    background-color: #1F2937;
+    margin: 10px auto 0px;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
